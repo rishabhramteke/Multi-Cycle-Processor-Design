@@ -1,0 +1,34 @@
+library std;
+use std.standard.all;
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;	 
+use ieee.std_logic_unsigned.all;
+
+entity alu is
+	port (	A, B: in std_logic_vector(15 downto 0);
+			C: out std_logic_vector(15 downto 0);
+			S: in std_logic_vector(1 downto 0);
+			Z: out std_logic);
+end entity alu;
+
+architecture Behave of alu is
+
+signal S1: std_logic_vector(15 downto 0) := (others => S(1));
+signal S0: std_logic_vector(15 downto 0) := (others => S(0));
+signal eq: std_logic_vector(15 downto 0);
+
+begin
+	C <= (std_logic_vector(unsigned(A)+unsigned(B)) and (not S1) and (not S0))
+	 or (std_logic_vector(unsigned(A)-unsigned(B)) and (not S1) and S0)
+	 or ((A nand B) and S1 and (not S0)); 
+	    	
+	eq <= A xnor B;
+
+	-- Z is 1 when A and B are equal
+	Z <= eq(0) and eq(1) and eq(2) and eq(3) and eq(4) and eq(5) and eq(6) and eq(7)
+	 	and eq(8) and eq(9) and eq(10) and eq(11) and eq(12) and eq(13) and eq(14) and eq(15);
+
+end architecture; -- Behave
