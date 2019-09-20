@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/register.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/Mux2.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/gpc.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/register_file.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/Mux8.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/alu.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/memory.vhdl
+source_file = 1, /home/atharv/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/atharv/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/atharv/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/atharv/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/atharv/altera_lite/16.0/projects/GPC/db/gpc.cbx.xml
+design_name = gpc
+instance = comp, \clk~I\, clk, gpc, 1

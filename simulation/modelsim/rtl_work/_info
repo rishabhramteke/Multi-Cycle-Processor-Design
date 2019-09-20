@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/atharv/altera_lite/16.0/projects/GPC/simulation/modelsim
+Ealu
+Z1 w1557086259
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/atharv/altera_lite/16.0/projects/GPC/alu.vhdl
+Z6 F/home/atharv/altera_lite/16.0/projects/GPC/alu.vhdl
+l0
+L5
+V0L<?fae0_2cPDh>PlK;Ol0
+!s100 _c<TBjmOK@`X0Y2nP6XFl1
+Z7 OV;C;10.4d;61
+31
+Z8 !s110 1557163782
+!i10b 1
+Z9 !s108 1557163782.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/atharv/altera_lite/16.0/projects/GPC/alu.vhdl|
+Z11 !s107 /home/atharv/altera_lite/16.0/projects/GPC/alu.vhdl|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehave
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 0L<?fae0_2cPDh>PlK;Ol0
+l21
+L13
+V]Y^=@fF6GGG6m>[`beSfC0
+!s100 `9W;SEO;TeVo[i36aJUNK0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egpc
+Z14 w1557163776
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R4
+R0
+Z17 8/home/atharv/altera_lite/16.0/projects/GPC/gpc.vhdl
+Z18 F/home/atharv/altera_lite/16.0/projects/GPC/gpc.vhdl
+l0
+L10
+VIL16;dT]CN[1d@<zfPmCZ2
+!s100 mW3fF;;_N]W43Q`9T[=Un1
+R7
+31
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/atharv/altera_lite/16.0/projects/GPC/gpc.vhdl|
+Z20 !s107 /home/atharv/altera_lite/16.0/projects/GPC/gpc.vhdl|
+!i113 1
+R12
+R13
+Abehave
+R15
+R16
+R2
+R3
+R4
+DEx4 work 3 gpc 0 22 IL16;dT]CN[1d@<zfPmCZ2
+l72
+L14
+V:>V:Hb]U991g49ZDkSW_L1
+!s100 ;Ek<n;1oWL[RaO@0l>MiB0
+R7
+31
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Ememory_unit
+Z21 w1557154258
+R15
+R16
+R2
+R3
+R4
+R0
+Z22 8/home/atharv/altera_lite/16.0/projects/GPC/memory.vhdl
+Z23 F/home/atharv/altera_lite/16.0/projects/GPC/memory.vhdl
+l0
+L13
+VE3j]R8_3<8@S`ja5J5iR<0
+!s100 z]:5f?9Kfk48N0[?o:a=U3
+R7
+31
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/atharv/altera_lite/16.0/projects/GPC/memory.vhdl|
+Z25 !s107 /home/atharv/altera_lite/16.0/projects/GPC/memory.vhdl|
+!i113 1
+R12
+R13
+Aform
+R15
+R16
+R2
+R3
+R4
+DEx4 work 11 memory_unit 0 22 E3j]R8_3<8@S`ja5J5iR<0
+l27
+L19
+V3YXO<bTSUGEkgd98Dg85n3
+!s100 7hgRaCkmO?3@1TY^m?BE]1
+R7
+31
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Eregister_file
+Z26 w1557154711
+R15
+R16
+R2
+R3
+R4
+R0
+Z27 8/home/atharv/altera_lite/16.0/projects/GPC/register_file.vhdl
+Z28 F/home/atharv/altera_lite/16.0/projects/GPC/register_file.vhdl
+l0
+L10
+V1<RX=CQ6DAdk`59IK]]F11
+!s100 k^Pg4T5h8]EQj43CBom0J3
+R7
+31
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/atharv/altera_lite/16.0/projects/GPC/register_file.vhdl|
+Z30 !s107 /home/atharv/altera_lite/16.0/projects/GPC/register_file.vhdl|
+!i113 1
+R12
+R13
+Abehave
+R15
+R16
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 1<RX=CQ6DAdk`59IK]]F11
+l27
+L19
+V2f216LZVbOOeT3HQD[0?J1
+!s100 PELngP:d4^CRIDP[fX_P91
+R7
+31
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 1
+R12
+R13
