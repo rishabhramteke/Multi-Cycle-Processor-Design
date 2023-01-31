@@ -7,9 +7,9 @@ Finite State Machine :<br>
 <h3>ALU: </h3><br>
 port ( A, B: in std_logic_vector(15 downto 0); <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C: out std_logic_vector(15 downto 0); <br>
-&nbsp;carry, iszero: out std_logic;<br>
-      S: in std_logic_vector(1 downto 0);<br>
-      Z: out std_logic);<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; carry, iszero: out std_logic;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; S: in std_logic_vector(1 downto 0);<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Z: out std_logic);<br>
 signal S1: std_logic_vector(15 downto 0); <br>
 signal S0: std_logic_vector(15 downto 0); <br>
 signal sum: std_logic_vector(16 downto 0); <br>
