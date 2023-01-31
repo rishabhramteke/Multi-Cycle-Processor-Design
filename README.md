@@ -4,7 +4,7 @@ Designed a multi-cycle processor using VHDL that could successfully execute 14 d
 Implemented the instructions in the form of a finite state machine with several overlapping states between instructions, helping lower the complexity of the design and simulated it on Quartus<br>
 
 Finite State Machine :<br>
-<h3>ALU: </h3><br>
+<h3>ALU: </h3>
 port ( A, B: in std_logic_vector(15 downto 0); <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C: out std_logic_vector(15 downto 0); <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; carry, iszero: out std_logic;<br>
