@@ -15,8 +15,7 @@ signal S0: std_logic_vector(15 downto 0); <br>
 signal sum: std_logic_vector(16 downto 0); <br>
 signal eq: std_logic_vector(15 downto 0); <br>
 signal temp: std_logic_vector(15 downto 0);<br>
-
-
+<br>
 A & B are 16 bit inputs. C is 16 bit output. ‘Carry’ is carry of when the ALU performs addition. S is 2 bit input.<br>
 If S=00, then ALU should perform addition<br>
 If S=01, then ALU should perform subtraction<br>
