@@ -1,22 +1,24 @@
 # Multi-Cycle-Processor-Design
 
-Designed a multi-cycle processor using VHDL that could successfully execute 14 different 16-bit
-instructions which together can perform any general task regardless of complexity.
+Designed a multi-cycle processor using VHDL that could successfully execute 14 different 16-bit instructions which together can perform any general task regardless of complexity.<br>
+Implemented the instructions in the form of a finite state machine with several overlapping states between instructions, helping lower the complexity of the design and simulated it on Quartus<br>
 
-Implemented the instructions in the form of a finite state machine with several overlapping states
-between instructions, helping lower the complexity of the design and simulated it on Quartus
+Finite State Machine :<br>
+<h3>ALU: </h3><br>
+port (A, B: in std_logic_vector(15 downto 0); <br>
+      C: out std_logic_vector(15 downto 0); <br>
+      carry, iszero: out std_logic;<br>
+      S: in std_logic_vector(1 downto 0);<br>
+      Z: out std_logic);<br>
+signal S1: std_logic_vector(15 downto 0); <br>
+signal S0: std_logic_vector(15 downto 0); <br>
+signal sum: std_logic_vector(16 downto 0); <br>
+signal eq: std_logic_vector(15 downto 0); <br>
+signal temp: std_logic_vector(15 downto 0);<br>
+A & B are 16 bit inputs. C is 16 bit output. ‘Carry’ is carry of when the ALU performs addition. S is 2 bit input.<br>
+If S=00, then ALU should perform addition<br>
+If S=01, then ALU should perform subtraction<br>
+If S=10, then ALU should perform as a NAND gate.<br>
 
-Finite State Machine :
-<h>ALU: </h>
-port (A, B: in std_logic_vector(15 downto 0); 
-      C: out std_logic_vector(15 downto 0); 
-      carry, iszero: out std_logic;
-      S: in std_logic_vector(1 downto 0);
-      Z: out std_logic);
-signal S1: std_logic_vector(15 downto 0); signal S0: std_logic_vector(15 downto 0); signal sum: std_logic_vector(16 downto 0); signal eq: std_logic_vector(15 downto 0); signal temp: std_logic_vector(15 downto 0);
-A & B are 16 bit inputs. C is 16 bit output. ‘Carry’ is carry of when the ALU performs addition. S is 2 bit input.
-If S=00, then ALU should perform addition
-If S=01, then ALU should perform subtraction
-If S=10, then ALU should perform as a NAND gate.
-‘iszero’ is a signal indicates when the result C is equal to zero.
-eq is output of (A xnor B). We have used this signal to check equality of A and B. ‘Z’ is 1 when A and B are equal.
+‘iszero’ is a signal indicates when the result C is equal to zero.<br>
+eq is output of (A xnor B). We have used this signal to check equality of A and B. ‘Z’ is 1 when A and B are equal.<br>
