@@ -23,3 +23,5 @@ If S=10, then ALU should perform as a NAND gate.<br>
 <br>
 ‘iszero’ is a signal indicates when the result C is equal to zero.<br>
 eq is output of (A xnor B). We have used this signal to check equality of A and B. ‘Z’ is 1 when A and B are equal.<br>
+
+![alt text](./SM.png)
